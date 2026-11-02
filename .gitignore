@@ -1,56 +1,59 @@
-# C++ objects and libs
-*.slo
-*.lo
+# Local editor and operating-system files
+/.vscode/
+.DS_Store
+__MACOSX/
+._*
+Thumbs.db
+Desktop.ini
+*Zone.Identifier
+*.swp
+*.swo
+*~
+
+# Compiled object files and Python caches
 *.o
-*.a
-*.la
-*.lai
-*.so
-*.so.*
-*.dll
-*.dylib
+*.obj
+__pycache__/
+*.py[cod]
 
-# Qt-es
-object_script.*.Release
-object_script.*.Debug
-*_plugin_import.cpp
-/.qmake.cache
-/.qmake.stash
-*.pro.user
-*.pro.user.*
-*.qbs.user
-*.qbs.user.*
-*.moc
-moc_*.cpp
-moc_*.h
-qrc_*.cpp
-ui_*.h
-*.qmlc
-*.jsc
-Makefile*
-*build-*
-build/
-*.qm
-*.prl
-*.qmlls.ini
+# Data Lab: programs built from the included sources
+/datalab-handout/btest
+/datalab-handout/btestexplicit
+/datalab-handout/fshow
+/datalab-handout/ishow
 
-# Qt unit tests
-target_wrapper.*
+# Cache Lab: build products and generated traces/results
+/cachelab-handout/csim
+/cachelab-handout/test-trans
+/cachelab-handout/tracegen
+/cachelab-handout/.csim_results
+/cachelab-handout/.marker
+/cachelab-handout/trace.all
+/cachelab-handout/trace.f*
+/cachelab-handout/trace.tmp
 
-# QtCreator
-*.autosave
+# Malloc Lab: generated driver
+/malloclab-handout/mdriver
 
-# QtCreator Qml
-*.qmlproject.user
-*.qmlproject.user.*
+# Proxy Lab: executables and test output directories
+/proxylab-handout/proxy
+/proxylab-handout/tiny/tiny
+/proxylab-handout/tiny/cgi-bin/adder
+/proxylab-handout/.proxy/
+/proxylab-handout/.noproxy/
 
-# QtCreator CMake
-CMakeLists.txt.user*
+# Shell Lab: programs built from the included sources
+/shlab-handout/tsh
+/shlab-handout/myint
+/shlab-handout/myspin
+/shlab-handout/mysplit
+/shlab-handout/mystop
 
-# QtCreator 4.8< compilation database
-compile_commands.json
+# Generated submission archives
+*-handin.tar
+*-handin.tar.gz
 
-# QtCreator local machine specific files for imported projects
-*creator.user*
-
-*_qmlcache.qrc
+# Keep Makefiles, source code, reports, .d disassembly, and test data.
+# Keep supplied tools/targets: bomb, ctarget, rtarget, hex2raw, dlc,
+# csim-ref, test-csim, tshref, and tshref.out.
+# Original course archives are kept; they may contain extra materials.
